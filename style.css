@@ -186,12 +186,14 @@ section {
 
     font-size: 2.6em;
 }
-.questions{
+
+.questions {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .q1,
 .q2,
 .q3,
@@ -207,7 +209,7 @@ section {
     background-color: #303030;
     margin-bottom: 15px;
     cursor: pointer;
-    
+
 
 }
 
@@ -275,18 +277,18 @@ table td {
     margin-top: 2em;
 }
 
-.a1{
+.a1 {
     padding: 0;
     font-size: 1em;
 }
 
-.last{
+.last {
     padding-right: 0px;
 }
 
 
-@media (max-width:1106px){
-    .item6{
+@media (max-width:1106px) {
+    .item6 {
         padding-right: 50px;
         padding-left: 20px;
     }
@@ -306,10 +308,11 @@ table td {
     body {
         width: 100%;
     }
-        table td {
-            padding: 20px 50px 0px 20px;
-            cursor: pointer;
-        }
+
+    table td {
+        padding: 20px 50px 0px 20px;
+        cursor: pointer;
+    }
 
 }
 
@@ -352,12 +355,14 @@ table td {
         flex-direction: column;
         align-items: center;
     }
-        .item1 img,
-        .item2 img,
-        .item3 img,
-        .item4 img {
-            width: 400px;
-        }
+
+    .item1 img,
+    .item2 img,
+    .item3 img,
+    .item4 img {
+        width: 400px;
+    }
+
     .main-text h1 {
         font-size: 3.2em;
     }
@@ -562,10 +567,12 @@ table td {
     .item4 img {
         width: 250px;
     }
-    .item6 h4{
+
+    .item6 h4 {
         font-size: 0.7em;
     }
-    .item5 h3{
+
+    .item5 h3 {
         font-size: 1em;
     }
 
