@@ -186,22 +186,33 @@ section {
 
     font-size: 2.6em;
 }
-
+.questions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .q1,
 .q2,
 .q3,
 .q4,
 .q5,
 .q6 {
+    width: 100%;
+    max-width: 70%;
     font-size: 1.7em;
-    padding: 15px 300px 15px 15px;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     background-color: #303030;
     margin-bottom: 15px;
     cursor: pointer;
+    
 
 }
+
+
+
 
 .item5 .get-started {
     max-width: 100%;
@@ -264,9 +275,26 @@ table td {
     margin-top: 2em;
 }
 
+.a1{
+    padding: 0;
+    font-size: 1em;
+}
+
+.last{
+    padding-right: 0px;
+}
 
 
-@media (max-width:910px) {
+@media (max-width:1106px){
+    .item6{
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+}
+
+
+
+@media (max-width:938px) {
 
     .item1 img,
     .item2 img,
@@ -278,6 +306,10 @@ table td {
     body {
         width: 100%;
     }
+        table td {
+            padding: 20px 50px 0px 20px;
+            cursor: pointer;
+        }
 
 }
 
@@ -295,12 +327,12 @@ table td {
     }
 
     table td {
-        padding-right: 50px;
+        padding-right: 20px;
     }
 
 }
 
-@media (max-width:707px) {
+@media (max-width:730px) {
 
 
     body {
@@ -309,7 +341,7 @@ table td {
     }
 
     table td {
-        padding-right: 30px;
+        padding-right: 10px;
     }
 
 
@@ -320,7 +352,12 @@ table td {
         flex-direction: column;
         align-items: center;
     }
-
+        .item1 img,
+        .item2 img,
+        .item3 img,
+        .item4 img {
+            width: 400px;
+        }
     .main-text h1 {
         font-size: 3.2em;
     }
@@ -330,6 +367,7 @@ table td {
     }
 
 }
+
 
 @media (max-width:613px) {
 
@@ -403,14 +441,14 @@ table td {
         top: -8px;
     }
 
-    .q1,
+    /* .q1,
     .q2,
     .q3,
     .q4,
     .q5,
     .q6 {
         padding-right: 200px;
-    }
+    } */
 
     .main-text .get-started {
         font-size: 0.4em;
@@ -448,14 +486,14 @@ table td {
         font-size: 0.6em;
     }
 
-    .q1,
+    /* .q1,
     .q2,
     .q3,
     .q4,
     .q5,
     .q6 {
         padding-right: 100px;
-    }
+    } */
 
     .main-text h1 {
         font-size: 1.8em;
@@ -523,6 +561,12 @@ table td {
     .item3 img,
     .item4 img {
         width: 250px;
+    }
+    .item6 h4{
+        font-size: 0.7em;
+    }
+    .item5 h3{
+        font-size: 1em;
     }
 
 }
